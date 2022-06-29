@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Base dotnet core container",
+    "allowComments": true,
+	"image": "mcr.microsoft.com/dotnet/nightly/sdk:6.0",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"GitHub.copilot"
+			]
+		}
+	}
+}
